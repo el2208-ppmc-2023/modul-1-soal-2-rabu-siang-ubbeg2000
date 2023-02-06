@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make main",
+      "run": "./main",
+      "input": "1111111111\r\n1111111111\r\n1111111111\r\n1111111111\r\n1111111111\r\n1111111111\r\n1111111111\r\n1111111111\r\n1111111111\r\n1111111111",
+      "output": "Jadwal terbaik untuk Stella dan Steven adalah hari ke-1 dengan overlap 0 jam.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "make main",
+      "run": "./main",
+      "input": "1000000000\r\n1000000000\r\n1000000000\r\n1000000000\r\n1000000000\r\n1000000000\r\n1000000000\r\n1000000000\r\n1000000000\r\n1000000000",
+      "output": "Jadwal terbaik untuk Stella dan Steven adalah hari ke-1 dengan overlap 9 jam.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "make main",
+      "run": "./main",
+      "input": "1000000000\r\n1111111111\r\n1011111111\r\n1001111111\r\n1000111111\r\n1000011111\r\n1000001111\r\n1000000111\r\n1000000011\r\n1000000001",
+      "output": "Jadwal terbaik untuk Stella dan Steven adalah hari ke-5 dengan overlap 7 jam.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "make main",
+      "run": "./main",
+      "input": "1010101010\r\n1011111000\r\n1010000000\r\n1010000000\r\n1011111000\r\n1000001000\r\n1000001000\r\n1110001100\r\n1000000100\r\n1000111100",
+      "output": "Jadwal terbaik untuk Stella dan Steven adalah hari ke-2 dengan overlap 8 jam.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "make main",
+      "run": "./main",
+      "input": "1111111111\r\n1000000000\r\n1111100000\r\n1000011111\r\n1111111000\r\n1000000111\r\n1111000111\r\n1100111001\r\n1000111111\r\n1111000000",
+      "output": "Jadwal terbaik untuk Stella dan Steven adalah hari ke-1 dengan overlap 0 jam.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "make main",
+      "run": "./main",
+      "input": "1101010111\r\n1010101101\r\n1010101011\r\n1010100111\r\n1010101010\r\n1001111000\r\n1011101101\r\n1110001010\r\n1001001111\r\n1000111010",
+      "output": "Jadwal terbaik untuk Stella dan Steven adalah hari ke-2 dengan overlap 3 jam.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "make main",
+      "run": "./main",
+      "input": "1000100010\r\n1001101000\r\n1101011101\r\n1010101011\r\n1010100111\r\n1101000011\r\n1010100101\r\n1110010101\r\n1111000011\r\n1010001110",
+      "output": "Jadwal terbaik untuk Stella dan Steven adalah hari ke-1 dengan overlap 5 jam.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "make main",
+      "run": "./main",
+      "input": "1000100001\r\n1000001111\r\n1111100111\r\n1110000011\r\n1000001111\r\n1111000000\r\n1000111111\r\n1111011110\r\n1111100000\r\n1100011100",
+      "output": "Jadwal terbaik untuk Stella dan Steven adalah hari ke-1 dengan overlap 4 jam.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "make main",
+      "run": "./main",
+      "input": "1111111111\r\n1100110011\r\n1000000001\r\n1100000011\r\n1110000111\r\n1111101111\r\n1010101010\r\n1111111111\r\n1010101010\r\n1001100110",
+      "output": "Jadwal terbaik untuk Stella dan Steven adalah hari ke-2 dengan overlap 6 jam.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "make main",
+      "run": "./main",
+      "input": "1001100110\r\n1100110011\r\n1110011001\r\n1111001100\r\n1011100110\r\n1001110011\r\n1000111001\r\n1000011100\r\n1000001110\r\n1100000111",
+      "output": "Jadwal terbaik untuk Stella dan Steven adalah hari ke-4 dengan overlap 4 jam.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
